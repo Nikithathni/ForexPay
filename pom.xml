@@ -83,7 +83,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://13.232.73.229:8081/repository/maven-snapshots/</url>
+	    <url>http://http://13.233.225.103:8081/nexus/content/repositories/nexuss/</url>
 	  </snapshotRepository>
 	</distributionManagement>
 
@@ -103,9 +103,9 @@
 	    <version>6.4.4</version>
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
-	         <url>jdbc:mysql://13.234.31.39:3306</url>
-	         <user>inguser1</user>
-		  <password>H@ckath0n</password>
+	         <url>jdbc:mysql://13.233.225.103:3306</url>
+	         <user>sqltest_user</user>
+		  <password>password</password>
 	      <schemas>
 	          <schema>forexpay</schema>
 	        </schemas>
